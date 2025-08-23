@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="17.27" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-08-21T07:28:33.231597900Z">
+<testcase classname="Check online banking" name="Online bankingg and statement download" time="17.127">
+<system-out><![CDATA[
+Given zero bank home should available with browser..........................passed
+When click on online banking hyperlink then click on online statements......passed
+And select savings fron dropdown list select year and click on statements for downloading.passed
+Then Statement download.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
