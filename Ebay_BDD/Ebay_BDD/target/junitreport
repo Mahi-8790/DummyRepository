@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="143.22" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-08-21T11:16:14.282557600Z">
+<testcase classname="check user is able to add item in the cart" name="User adding item to cart" time="31.02">
+<system-out><![CDATA[
+Given ebay home page is open in the default browser.........................passed
+When User serach item in the serachbox......................................passed
+And new window opens and user clicks on add to cart button..................passed
+Then User able to add item to cart..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to advance search" name="User advance searching" time="10.038">
+<system-out><![CDATA[
+Given ebay page open in the default browser.................................passed
+When User clicks on Advance serach button...................................passed
+Then User able to advance search............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to search by category" name="User searching by shop all category" time="15.709">
+<system-out><![CDATA[
+Given ebay home page should be open in the default browser..................passed
+When click on All categories................................................passed
+And select any category.....................................................passed
+Then User able to shop by all category......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to sort items using filter" name="User sorting items" time="17.658">
+<system-out><![CDATA[
+Given ebay home page is opened in the default browser.......................passed
+When User search item in the search box.....................................passed
+And user click on the sort filter and click any filter......................passed
+Then User able to sort items................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to change the language" name="User changing language" time="12.764">
+<system-out><![CDATA[
+Given compulsory ebay home page is open in the default browser..............passed
+When User clicks on USA country flag........................................passed
+And User selecting which language to choose by clicking on country flag.....passed
+Then User able to change language...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to login with valid credetials" name="successful login" time="22.132">
+<system-out><![CDATA[
+Given login page should be open in default browser..........................passed
+When page loads click on signin button......................................passed
+And enter valid username and click continue.................................passed
+And enter valid password and click continue.................................passed
+Then login successfully and open home page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able serach" name="Seraching is possible" time="7.149">
+<system-out><![CDATA[
+Given home page should be open in default browser...........................passed
+When click on searchbox and type something and hit ENTER key................passed
+Then User should be able to search..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to sell the product" name="User selling" time="8.089">
+<system-out><![CDATA[
+Given compulsory ebay home page open in the default browser.................passed
+When User clicks on sell button.............................................passed
+Then User gets redirected to sell items.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="check user is able to search by category" name="User searching by shop by categorye" time="18.202">
+<system-out><![CDATA[
+Given ebay home page should be open in default browser......................passed
+When click on shop by category..............................................passed
+And click on any category...................................................passed
+Then User able to shop by category..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
